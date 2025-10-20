@@ -1,0 +1,27 @@
+{
+    "name": "More-Utilites-For-Arcade",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "more-arrays": "github:developertryingtocodelikeotherofthem/more-arrays#master"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "variables.ts",
+        "helpers-core.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "2.0.59",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "languageRestriction": "javascript-only"
+}
