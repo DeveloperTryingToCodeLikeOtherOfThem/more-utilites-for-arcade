@@ -12,9 +12,10 @@ interface Variable {
      * Decreases the the pre increment of the number
      */
     decreasePreIncrement(i: number): number
-    //% helper=variablesPreIncrementOperator blockNamespace=moreVariables
+
+    //% helper=variablesPreIncrementOperator blockNamespace=moreVariables block="pre increment %i"
     __preIncrement(i: number): number
-    //% helper=variablesPreDecresmentOperator blockNamespace=moreVariables
+    //% helper=variablesPreDecresmentOperator blockNamespace=moreVariables block="decrease pre increment %i"
     __decreateIncrement(i: number): number
 }
 
