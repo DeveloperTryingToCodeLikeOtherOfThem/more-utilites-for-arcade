@@ -14,8 +14,10 @@ interface Variable {
     decreasePreIncrement(i: number): number
 
     //% helper=variablesPreIncrementOperator blockNamespace=moreVariables block="pre increment %i"
+    //% blockSetVariable=myVariable
     __preIncrement(i: number): number
     //% helper=variablesPreDecresmentOperator blockNamespace=moreVariables block="decrease pre increment %i"
+    //% blockSetVariable=myVariable
     __decreateIncrement(i: number): number
 }
 
