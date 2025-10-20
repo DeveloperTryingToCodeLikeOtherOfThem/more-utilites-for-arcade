@@ -20,6 +20,7 @@ interface Variable {
 }
 
 //% block="variables get" blockNamespace=variables Warning for JavaScript only
+//% blockSetVariable=myVariable
 function variables_get(): Variable {
     let _variable: Variable 
     return _variable
