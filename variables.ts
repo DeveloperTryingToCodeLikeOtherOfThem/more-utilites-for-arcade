@@ -18,7 +18,18 @@ interface Variable {
     __decreateIncrement(i: number): number
 }
 
-//% weight=50 
+//% block="variables get" blockNamespace=variables Warning for JavaScript only
+function variables_get(): Variable {
+    let _variable: Variable 
+    return _variable
+}
+
+//% block="variables get" blockNamespace=moreVariables
+function _variables_get() {
+    return variables_get()
+}
+
+//% weight=50 block="variables"
 namespace moreVariables { }
 let a: Variable 
 a.__preIncrement(0)
